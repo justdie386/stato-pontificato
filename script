@@ -1,0 +1,12 @@
+local discordia = require('discordia')
+local client = discordia.Client()
+
+
+client:on('messageCreate', function(message)
+    if message.content=="nice" then
+
+message:reply("nice1")
+        end
+end)
+
+client:run("Bot OTI4Njc3MzIzNzgyMzYxMTI4.YdcQJw.Fx7OWAletdBvCplT_vKF4tXpheU")
